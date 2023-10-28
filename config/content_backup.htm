@@ -44,7 +44,20 @@ int main() {
   
     return 0;
 }</pre>
-<img alt="" height="200" src="/images/gnuplot_ex1.png" width="400"/>
+<p><img alt="" height="200" src="/images/gnuplot_ex1.png" width="400"/></p>
+<pre class="brush:html;auto-links:false" contenteditable="false">#include &lt;stdio.h&gt;
+
+// 函数原型
+int test(int x, int y);
+
+int main(void) {
+    printf("%d", test(2, 3));
+    printf("\n%d", test(2, 3));
+}
+
+int test(int x, int y) {
+    return x == y ? (x + y) * 3 : x + y;
+}</pre>
 <h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
